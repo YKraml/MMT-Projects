@@ -23,16 +23,16 @@ import plotting.PlotterImpl;
 public class Main {
 
   private static String[] paths = new String[]{
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\Commons Cli\\Genetic",
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\Commons Cli\\Random",
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\Maths\\Genetic",
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\Maths\\Random",
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\3. Projekt\\Genetic",
-      "C:\\Users\\yanni\\OneDrive\\Studium Bachelor\\6. Semester\\Bachelorarbeit\\Experiment\\3. Projekt\\Random"
+      "experiment/cli/genetic",
+      "experiment/cli/random",
+      "experiment/jsoup/genetic",
+      "experiment/jsoup/random",
+      "experiment/maths/genetic",
+      "experiment/maths/random"
   };
 
-  private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[2]);
-  private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[3]);
+  private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[4]);
+  private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[5]);
   private final static PlotterImpl plotter = new PlotterImpl();
   private final static TableFunction[] tableFunctions = new TableFunction[]{
       new NumberOfFoundTestcasesVsNumberOfMutants(), new NumberOfStrongMutantsVsNumberOfMutants(),
