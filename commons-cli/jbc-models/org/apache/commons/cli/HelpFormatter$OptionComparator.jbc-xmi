@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/apache/commons/cli/HelpFormatter$OptionComparator" minorVersion="0" majorVersion="52" super="true" sourceFileName="HelpFormatter.java">
+    <methods name="&lt;init>" private="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="71" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="71">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="71"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/apache/commons/cli/HelpFormatter$OptionComparator;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="compare" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="86" localVariable="//@classes.0/@methods.1/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_1" linenumber="86">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+        <methodReference name="getKey">
+          <declaringClass typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="86" localVariable="//@classes.0/@methods.1/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_3" linenumber="86">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <methodReference name="getKey">
+          <declaringClass typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_4" linenumber="86">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+        <methodReference name="compareToIgnoreCase">
+          <declaringClass typeDescriptor="Ljava/lang/String;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_5" linenumber="86"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+        <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.5" index="0">
+        <descriptor typeDescriptor="Lorg/apache/commons/cli/HelpFormatter$OptionComparator;"/>
+      </localVariableTable>
+      <localVariableTable name="opt1" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.5" index="1">
+        <descriptor typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+      </localVariableTable>
+      <localVariableTable name="opt2" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.5" index="2">
+        <descriptor typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="compare" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0" synthetic="true" bridge="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:CheckcastInstruction" name="idx_2" linenumber="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+        <typeReference typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:CheckcastInstruction" name="idx_4" linenumber="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+        <typeReference typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_5" linenumber="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+        <methodReference name="compare">
+          <declaringClass typeDescriptor="Lorg/apache/commons/cli/HelpFormatter$OptionComparator;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+            <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Option;"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_6" linenumber="1"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+    </methods>
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.3/@instructions.0" synthetic="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="71" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="71">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/apache/commons/cli/HelpFormatter$OptionComparator;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="71"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/apache/commons/cli/HelpFormatter$OptionComparator;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </methods>
+    <fields name="serialVersionUID" private="true" static="true" final="true">
+      <constantValue xsi:type="jbc:LongValue" value="5305467873966684014"/>
+      <descriptor typeDescriptor="J"/>
+    </fields>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <interfaces typeDescriptor="Ljava/util/Comparator;"/>
+    <interfaces typeDescriptor="Ljava/io/Serializable;"/>
+    <signature>
+      <superClassSignature packagespecifier="java/lang/">
+        <simpleClassSignature identifier="Object"/>
+      </superClassSignature>
+    </signature>
+    <innerClasses name="org/apache/commons/cli/HelpFormatter$OptionComparator" private="true" static="true" innerName="OptionComparator">
+      <outerName typeDescriptor="org/apache/commons/cli/HelpFormatter"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/select/Evaluator$IsFirstOfType" public="true" minorVersion="0" majorVersion="52" final="true" super="true" sourceFileName="Evaluator.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="478" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_1" linenumber="478">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_2" linenumber="478">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="478">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/select/Evaluator$IsNthOfType;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_4" linenumber="479"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.4" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$IsFirstOfType;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="toString" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_0" linenumber="482" constant=":first-of-type">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_1" linenumber="482"/>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$IsFirstOfType;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Lorg/jsoup/select/Evaluator$IsNthOfType;"/>
+    <innerClasses name="org/jsoup/select/Evaluator$IsFirstOfType" public="true" final="true" static="true" innerName="IsFirstOfType">
+      <outerName typeDescriptor="org/jsoup/select/Evaluator"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/select/Evaluator$IsNthOfType" public="true" static="true" innerName="IsNthOfType">
+      <outerName typeDescriptor="org/jsoup/select/Evaluator"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/select/Evaluator$AllElements" public="true" minorVersion="0" majorVersion="52" final="true" super="true" sourceFileName="Evaluator.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="383" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="383">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/select/Evaluator;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="383"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$AllElements;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="matches" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_0" linenumber="387">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_1" linenumber="387"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$AllElements;"/>
+      </localVariableTable>
+      <localVariableTable name="root" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+      </localVariableTable>
+      <localVariableTable name="element" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="2">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="cost" protected="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:BipushInstruction" name="idx_0" linenumber="391" operand="10">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_1" linenumber="391"/>
+      <descriptor>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$AllElements;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="toString" public="true" firstInstruction="//@classes.0/@methods.3/@instructions.0">
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_0" linenumber="396" constant="*">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_1" linenumber="396"/>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/Evaluator$AllElements;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Lorg/jsoup/select/Evaluator;"/>
+    <innerClasses name="org/jsoup/select/Evaluator$AllElements" public="true" final="true" static="true" innerName="AllElements">
+      <outerName typeDescriptor="org/jsoup/select/Evaluator"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

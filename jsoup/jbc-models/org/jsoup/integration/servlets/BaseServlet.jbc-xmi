@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/integration/servlets/BaseServlet" public="true" minorVersion="0" majorVersion="52" super="true" abstract="true" sourceFileName="BaseServlet.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="9" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="9">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljavax/servlet/http/HttpServlet;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="9"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/integration/servlets/BaseServlet;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="doGet" protected="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="15" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="15" localVariable="//@classes.0/@methods.1/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="15" localVariable="//@classes.0/@methods.1/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="15">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <methodReference name="doGet">
+          <declaringClass typeDescriptor="Ljavax/servlet/http/HttpServlet;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_4" linenumber="16"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Ljavax/servlet/ServletException"/>
+      <exceptionsCanBeThrown typeDescriptor="Ljava/io/IOException"/>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.4" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/integration/servlets/BaseServlet;"/>
+      </localVariableTable>
+      <localVariableTable name="req" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.4" index="1">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+      </localVariableTable>
+      <localVariableTable name="res" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.4" index="2">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="doPost" protected="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="20" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="20" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="20" localVariable="//@classes.0/@methods.2/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="20">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+        <methodReference name="doPost">
+          <declaringClass typeDescriptor="Ljavax/servlet/http/HttpServlet;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_4" linenumber="21"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Ljavax/servlet/ServletException"/>
+      <exceptionsCanBeThrown typeDescriptor="Ljava/io/IOException"/>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.4" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/integration/servlets/BaseServlet;"/>
+      </localVariableTable>
+      <localVariableTable name="req" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.4" index="1">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+      </localVariableTable>
+      <localVariableTable name="res" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.4" index="2">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="doPut" protected="true" firstInstruction="//@classes.0/@methods.3/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="25" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="25" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="25" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="25">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.4"/>
+        <methodReference name="doPut">
+          <declaringClass typeDescriptor="Ljavax/servlet/http/HttpServlet;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+            <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_4" linenumber="26"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+        <parameterTypes typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Ljavax/servlet/ServletException"/>
+      <exceptionsCanBeThrown typeDescriptor="Ljava/io/IOException"/>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.4" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/integration/servlets/BaseServlet;"/>
+      </localVariableTable>
+      <localVariableTable name="req" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.4" index="1">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletRequest;"/>
+      </localVariableTable>
+      <localVariableTable name="res" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.4" index="2">
+        <descriptor typeDescriptor="Ljavax/servlet/http/HttpServletResponse;"/>
+      </localVariableTable>
+    </methods>
+    <fields name="TextHtml" static="true" final="true">
+      <constantValue xsi:type="jbc:StringValue" value="text/html; charset=UTF-8"/>
+      <descriptor typeDescriptor="Ljava/lang/String;"/>
+    </fields>
+    <superClass typeDescriptor="Ljavax/servlet/http/HttpServlet;"/>
+  </classes>
+</jbc:Project>

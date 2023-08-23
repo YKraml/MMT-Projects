@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/select/XpathTest$AlternateXpathFactory" public="true" minorVersion="0" majorVersion="52" super="true" sourceFileName="XpathTest.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="242" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="242">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljavax/xml/xpath/XPathFactory;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="243"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="isObjectModelSupported" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_0" linenumber="247">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_1" linenumber="247"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+      <localVariableTable name="objectModel" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="1">
+        <descriptor typeDescriptor="Ljava/lang/String;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="setFeature" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_0" linenumber="253"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Z"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Ljavax/xml/xpath/XPathFactoryConfigurationException"/>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.0" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+      <localVariableTable name="name" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.0" index="1">
+        <descriptor typeDescriptor="Ljava/lang/String;"/>
+      </localVariableTable>
+      <localVariableTable name="value" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.0" index="2">
+        <descriptor typeDescriptor="Z"/>
+      </localVariableTable>
+    </methods>
+    <methods name="getFeature" public="true" firstInstruction="//@classes.0/@methods.3/@instructions.0">
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_0" linenumber="257">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_1" linenumber="257"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Ljavax/xml/xpath/XPathFactoryConfigurationException"/>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+      <localVariableTable name="name" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.1" index="1">
+        <descriptor typeDescriptor="Ljava/lang/String;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="setXPathVariableResolver" public="true" firstInstruction="//@classes.0/@methods.4/@instructions.0">
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_0" linenumber="263"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/xml/xpath/XPathVariableResolver;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.4/@instructions.0" endInstruction="//@classes.0/@methods.4/@instructions.0" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+      <localVariableTable name="resolver" startInstruction="//@classes.0/@methods.4/@instructions.0" endInstruction="//@classes.0/@methods.4/@instructions.0" index="1">
+        <descriptor typeDescriptor="Ljavax/xml/xpath/XPathVariableResolver;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="setXPathFunctionResolver" public="true" firstInstruction="//@classes.0/@methods.5/@instructions.0">
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_0" linenumber="268"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/xml/xpath/XPathFunctionResolver;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.0" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+      <localVariableTable name="resolver" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.0" index="1">
+        <descriptor typeDescriptor="Ljavax/xml/xpath/XPathFunctionResolver;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="newXPath" public="true" firstInstruction="//@classes.0/@methods.6/@instructions.0">
+      <instructions xsi:type="jbc:NewInstruction" name="idx_0" linenumber="272">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.1"/>
+        <typeReference typeDescriptor="Ljava/lang/IllegalArgumentException;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="272">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_2" linenumber="272" constant="Sorry, no can do!">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="272">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.4"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/IllegalArgumentException;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AthrowInstruction" name="idx_4" linenumber="272"/>
+      <descriptor>
+        <resultType typeDescriptor="Ljavax/xml/xpath/XPath;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.6/@instructions.0" endInstruction="//@classes.0/@methods.6/@instructions.4" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/select/XpathTest$AlternateXpathFactory;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Ljavax/xml/xpath/XPathFactory;"/>
+    <innerClasses name="org/jsoup/select/XpathTest$AlternateXpathFactory" public="true" static="true" innerName="AlternateXpathFactory">
+      <outerName typeDescriptor="org/jsoup/select/XpathTest"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

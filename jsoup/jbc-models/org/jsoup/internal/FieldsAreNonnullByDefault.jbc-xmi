@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/internal/FieldsAreNonnullByDefault" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" annotation="true" sourceFileName="FieldsAreNonnullByDefault.java">
+    <runtimeVisibleAnnotations>
+      <type typeDescriptor="Ljava/lang/annotation/Documented;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <type typeDescriptor="Ljavax/annotation/Nonnull;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <arrayValue>
+            <enumValue constName="FIELD">
+              <type typeDescriptor="Ljava/lang/annotation/ElementType;"/>
+            </enumValue>
+          </arrayValue>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Ljavax/annotation/meta/TypeQualifierDefault;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <enumValue constName="CLASS">
+            <type typeDescriptor="Ljava/lang/annotation/RetentionPolicy;"/>
+          </enumValue>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Ljava/lang/annotation/Retention;"/>
+    </runtimeVisibleAnnotations>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <interfaces typeDescriptor="Ljava/lang/annotation/Annotation;"/>
+  </classes>
+</jbc:Project>

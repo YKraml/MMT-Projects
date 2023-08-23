@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/parser/Token$EndTag" minorVersion="0" majorVersion="52" final="true" super="true" sourceFileName="Token.java">
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="323" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="323">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/Token$Tag;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="324" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_3" linenumber="324">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+        <fieldReference name="EndTag">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/Token$TokenType;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/parser/Token$TokenType;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_4" linenumber="324">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.5"/>
+        <fieldReference name="type">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/Token$EndTag;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/parser/Token$TokenType;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_5" linenumber="325"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.5" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/parser/Token$EndTag;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="toString" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:NewInstruction" name="idx_0" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+        <typeReference typeDescriptor="Ljava/lang/StringBuilder;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_2" linenumber="329" constant="&lt;/">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_3" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="329" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_5" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.6"/>
+        <methodReference name="toStringName">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/Token$EndTag;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_6" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.7"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_7" linenumber="329" constant=">">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_8" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.9"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_9" linenumber="329">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.10"/>
+        <methodReference name="toString">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_10" linenumber="329"/>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.10" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/parser/Token$EndTag;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Lorg/jsoup/parser/Token$Tag;"/>
+    <innerClasses name="org/jsoup/parser/Token$EndTag" final="true" static="true" innerName="EndTag">
+      <outerName typeDescriptor="org/jsoup/parser/Token"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/parser/Token$Tag" static="true" abstract="true" innerName="Tag">
+      <outerName typeDescriptor="org/jsoup/parser/Token"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/parser/Token$TokenType" public="true" final="true" static="true" enum="true" innerName="TokenType">
+      <outerName typeDescriptor="org/jsoup/parser/Token"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

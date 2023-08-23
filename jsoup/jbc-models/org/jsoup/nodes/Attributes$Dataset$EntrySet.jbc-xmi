@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/nodes/Attributes$Dataset$EntrySet" minorVersion="0" majorVersion="52" super="true" sourceFileName="Attributes.java">
+    <methods name="&lt;init>" private="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="513" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="513" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_2" linenumber="513">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+        <fieldReference name="this$1">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="513" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_4" linenumber="513">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.5"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/util/AbstractSet;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_5" linenumber="513"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.5" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="iterator" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:NewInstruction" name="idx_0" linenumber="517">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+        <typeReference typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="517">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="517" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_3" linenumber="517">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <fieldReference name="this$1">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:Aconst_nullInstruction" name="idx_4" linenumber="517">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_5" linenumber="517">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.6"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_6" linenumber="517"/>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Iterator;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Iterator">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+                <simpleClassSignature identifier="Map$Entry">
+                  <typeArgument xsi:type="jbc:TypeConcrete">
+                    <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                      <simpleClassSignature identifier="String"/>
+                    </fieldTypeSignature>
+                  </typeArgument>
+                  <typeArgument xsi:type="jbc:TypeConcrete">
+                    <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                      <simpleClassSignature identifier="String"/>
+                    </fieldTypeSignature>
+                  </typeArgument>
+                </simpleClassSignature>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.6" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="size" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_0" linenumber="522">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:IstoreInstruction" name="idx_1" linenumber="522" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_2" linenumber="523">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+        <typeReference typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_3" linenumber="523">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="523" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_5" linenumber="523">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+        <fieldReference name="this$1">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:Aconst_nullInstruction" name="idx_6" linenumber="523">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_7" linenumber="523">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.8"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$DatasetIterator;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_8" linenumber="523" localVariable="//@classes.0/@methods.2/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:GotoInstruction" name="idx_9" linenumber="524">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:IincInstruction" name="idx_10" linenumber="525" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1" incr="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_11" linenumber="524" localVariable="//@classes.0/@methods.2/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.12"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokeinterfaceInstruction" name="idx_12" linenumber="524">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+        <methodReference name="hasNext">
+          <declaringClass typeDescriptor="Ljava/util/Iterator;"/>
+          <descriptor>
+            <resultType typeDescriptor="Z"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IfneInstruction" name="idx_13" linenumber="524">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.10" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_14" linenumber="526" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.15"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_15" linenumber="526"/>
+      <descriptor>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.15" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+      </localVariableTable>
+      <localVariableTable name="count" startInstruction="//@classes.0/@methods.2/@instructions.2" endInstruction="//@classes.0/@methods.2/@instructions.15" index="1">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+      <localVariableTable name="iter" startInstruction="//@classes.0/@methods.2/@instructions.9" endInstruction="//@classes.0/@methods.2/@instructions.15" index="2">
+        <descriptor typeDescriptor="Ljava/util/Iterator;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.3/@instructions.0" synthetic="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="513" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="513" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_2" linenumber="513">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_3" linenumber="513"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset$EntrySet;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </methods>
+    <fields name="this$1" final="true" synthetic="true">
+      <descriptor typeDescriptor="Lorg/jsoup/nodes/Attributes$Dataset;"/>
+    </fields>
+    <superClass typeDescriptor="Ljava/util/AbstractSet;"/>
+    <signature>
+      <superClassSignature packagespecifier="java/util/">
+        <simpleClassSignature identifier="AbstractSet">
+          <typeArgument xsi:type="jbc:TypeConcrete">
+            <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+              <simpleClassSignature identifier="Map$Entry">
+                <typeArgument xsi:type="jbc:TypeConcrete">
+                  <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                    <simpleClassSignature identifier="String"/>
+                  </fieldTypeSignature>
+                </typeArgument>
+                <typeArgument xsi:type="jbc:TypeConcrete">
+                  <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                    <simpleClassSignature identifier="String"/>
+                  </fieldTypeSignature>
+                </typeArgument>
+              </simpleClassSignature>
+            </fieldTypeSignature>
+          </typeArgument>
+        </simpleClassSignature>
+      </superClassSignature>
+    </signature>
+    <innerClasses name="java/util/Map$Entry" public="true" static="true" interface="true" abstract="true" innerName="Entry">
+      <outerName typeDescriptor="java/util/Map"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/nodes/Attributes$Dataset" private="true" static="true" innerName="Dataset">
+      <outerName typeDescriptor="org/jsoup/nodes/Attributes"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/nodes/Attributes$Dataset$DatasetIterator" private="true" innerName="DatasetIterator">
+      <outerName typeDescriptor="org/jsoup/nodes/Attributes$Dataset"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/nodes/Attributes$Dataset$EntrySet" private="true" innerName="EntrySet">
+      <outerName typeDescriptor="org/jsoup/nodes/Attributes$Dataset"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

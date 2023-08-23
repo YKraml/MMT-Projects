@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/MultiLocaleExtension$MultiLocaleTest" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" annotation="true" sourceFileName="MultiLocaleExtension.java">
+    <runtimeVisibleAnnotations>
+      <type typeDescriptor="Ljava/lang/annotation/Documented;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <arrayValue>
+            <enumValue constName="METHOD">
+              <type typeDescriptor="Ljava/lang/annotation/ElementType;"/>
+            </enumValue>
+          </arrayValue>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Ljava/lang/annotation/Target;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <enumValue constName="RUNTIME">
+            <type typeDescriptor="Ljava/lang/annotation/RetentionPolicy;"/>
+          </enumValue>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Ljava/lang/annotation/Retention;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <classValue typeDescriptor="Lorg/jsoup/MultiLocaleExtension;"/>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Lorg/junit/jupiter/params/provider/ArgumentsSource;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <elementValuePairs name="value">
+        <value>
+          <arrayValue>
+            <classValue typeDescriptor="Lorg/jsoup/MultiLocaleExtension;"/>
+          </arrayValue>
+        </value>
+      </elementValuePairs>
+      <type typeDescriptor="Lorg/junit/jupiter/api/extension/ExtendWith;"/>
+    </runtimeVisibleAnnotations>
+    <runtimeVisibleAnnotations>
+      <type typeDescriptor="Lorg/junit/jupiter/params/ParameterizedTest;"/>
+    </runtimeVisibleAnnotations>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <interfaces typeDescriptor="Ljava/lang/annotation/Annotation;"/>
+    <innerClasses name="org/jsoup/MultiLocaleExtension$MultiLocaleTest" public="true" static="true" interface="true" abstract="true" annotation="true" innerName="MultiLocaleTest">
+      <outerName typeDescriptor="org/jsoup/MultiLocaleExtension"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

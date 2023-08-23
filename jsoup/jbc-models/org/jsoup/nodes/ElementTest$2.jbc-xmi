@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/nodes/ElementTest$2" minorVersion="0" majorVersion="52" super="true" sourceFileName="ElementTest.java">
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1934" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1934" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_2" linenumber="1934">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+        <fieldReference name="this$0">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/ElementTest$2;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/nodes/ElementTest;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="1934" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_4" linenumber="1934">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.5"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_5" linenumber="1934"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/ElementTest;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.5" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/ElementTest$2;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="head" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_0" linenumber="1937">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+        <fieldReference name="CONTINUE">
+          <declaringClass typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_1" linenumber="1937"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/ElementTest$2;"/>
+      </localVariableTable>
+      <localVariableTable name="node" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+      </localVariableTable>
+      <localVariableTable name="depth" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.1" index="2">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <methods name="tail" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_0" linenumber="1942">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+        <fieldReference name="CONTINUE">
+          <declaringClass typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+          <descriptor typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_1" linenumber="1942"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="Lorg/jsoup/select/NodeFilter$FilterResult;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.1" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/ElementTest$2;"/>
+      </localVariableTable>
+      <localVariableTable name="node" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.1" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+      </localVariableTable>
+      <localVariableTable name="depth" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.1" index="2">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <fields name="this$0" final="true" synthetic="true">
+      <descriptor typeDescriptor="Lorg/jsoup/nodes/ElementTest;"/>
+    </fields>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <interfaces typeDescriptor="Lorg/jsoup/select/NodeFilter;"/>
+    <outerClass typeDescriptor="Lorg/jsoup/nodes/ElementTest;"/>
+    <enclosingMethod name="testFilterCallReturnsElement">
+      <declaringClass typeDescriptor="Lorg/jsoup/nodes/ElementTest;"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </enclosingMethod>
+    <innerClasses name="org/jsoup/nodes/ElementTest$2"/>
+    <innerClasses name="org/jsoup/select/NodeFilter$FilterResult" public="true" final="true" static="true" enum="true" innerName="FilterResult">
+      <outerName typeDescriptor="org/jsoup/select/NodeFilter"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

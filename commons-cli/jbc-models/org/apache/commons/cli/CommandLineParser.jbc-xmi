@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/apache/commons/cli/CommandLineParser" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" sourceFileName="CommandLineParser.java">
+    <methods name="parse" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Options;"/>
+        <parameterTypes typeDescriptor="[Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/apache/commons/cli/CommandLine;"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Lorg/apache/commons/cli/ParseException"/>
+    </methods>
+    <methods name="parse" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/apache/commons/cli/Options;"/>
+        <parameterTypes typeDescriptor="[Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Z"/>
+        <resultType typeDescriptor="Lorg/apache/commons/cli/CommandLine;"/>
+      </descriptor>
+      <exceptionsCanBeThrown typeDescriptor="Lorg/apache/commons/cli/ParseException"/>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>

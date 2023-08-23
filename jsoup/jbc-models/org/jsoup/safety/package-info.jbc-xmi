@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/safety/package-info" minorVersion="0" majorVersion="52" interface="true" abstract="true" synthetic="true" sourceFileName="package-info.java">
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>

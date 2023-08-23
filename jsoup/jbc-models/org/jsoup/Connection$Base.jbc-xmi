@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/Connection$Base" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" sourceFileName="Connection.java">
+    <methods name="url" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/net/URL;"/>
+      </descriptor>
+    </methods>
+    <methods name="url" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/net/URL;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/net/">
+          <simpleClassSignature identifier="URL"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="method" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Method;"/>
+      </descriptor>
+    </methods>
+    <methods name="method" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/Connection$Method;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/">
+          <simpleClassSignature identifier="Connection$Method"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="header" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="headers" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/util/List;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="List">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="header" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="addHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="hasHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="hasHeaderWithValue" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="removeHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="headers" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Map;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Map">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="multiHeaders" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Map;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Map">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+                <simpleClassSignature identifier="List">
+                  <typeArgument xsi:type="jbc:TypeConcrete">
+                    <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                      <simpleClassSignature identifier="String"/>
+                    </fieldTypeSignature>
+                  </typeArgument>
+                </simpleClassSignature>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="cookie" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="cookie" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="hasCookie" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="removeCookie" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+      </signature>
+    </methods>
+    <methods name="cookies" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Map;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Map">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <signature>
+      <formalTypeParameter identifier="T">
+        <InterfaceBound xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/">
+          <simpleClassSignature identifier="Connection$Base">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+            </typeArgument>
+          </simpleClassSignature>
+        </InterfaceBound>
+      </formalTypeParameter>
+      <superClassSignature packagespecifier="java/lang/">
+        <simpleClassSignature identifier="Object"/>
+      </superClassSignature>
+    </signature>
+    <innerClasses name="org/jsoup/Connection$Base" public="true" static="true" interface="true" abstract="true" innerName="Base">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/Connection$Method" public="true" final="true" static="true" enum="true" innerName="Method">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

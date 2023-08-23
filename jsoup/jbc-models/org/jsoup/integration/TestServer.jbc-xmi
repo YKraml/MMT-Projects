@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/integration/TestServer" public="true" minorVersion="0" majorVersion="52" super="true" sourceFileName="TestServer.java">
+    <methods name="&lt;clinit>" firstInstruction="//@classes.0/@methods.0/@instructions.0" static="true">
+      <instructions xsi:type="jbc:NewInstruction" name="idx_0" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+        <typeReference typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_2" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+        <typeReference typeDescriptor="Ljava/net/InetSocketAddress;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_3" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_4" linenumber="11" constant="localhost">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_5" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_6" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.7"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/net/InetSocketAddress;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_7" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.8"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/net/InetSocketAddress;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:PutstaticInstruction" name="idx_8" linenumber="11">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.9"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_9" linenumber="12">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.10"/>
+        <typeReference typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_10" linenumber="12">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_11" linenumber="12">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.12"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:PutstaticInstruction" name="idx_12" linenumber="12">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.13"/>
+        <fieldReference name="handler">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_13" linenumber="15">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.14"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_14" linenumber="15">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.15"/>
+        <fieldReference name="handler">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_15" linenumber="15">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.16"/>
+        <methodReference name="setHandler">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/eclipse/jetty/server/Handler;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_16" linenumber="16"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </methods>
+    <methods name="&lt;init>" private="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="18" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="18">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="19"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="start" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0" static="true">
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_0" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_2" linenumber="22" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorenterInstruction" name="idx_3" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_4" linenumber="24">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.7" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.0"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_5" linenumber="24">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.7" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.0"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+        <methodReference name="start">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:GotoInstruction" name="idx_6" linenumber="25">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.7"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_7" linenumber="25" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.8"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_8" linenumber="26">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.9"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+        <typeReference typeDescriptor="Ljava/lang/IllegalStateException;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_9" linenumber="26">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.10"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_10" linenumber="26" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_11" linenumber="26">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.12"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/IllegalStateException;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/Throwable;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AthrowInstruction" name="idx_12" linenumber="26">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_13" linenumber="22" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.14"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorexitInstruction" name="idx_14" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.15"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:GotoInstruction" name="idx_15" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.19"/>
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_16" linenumber="22" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.17"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorexitInstruction" name="idx_17" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.18"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.2/@instructions.16" exceptionTableEntry="//@classes.0/@methods.2/@exceptionTable.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AthrowInstruction" name="idx_18" linenumber="22">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.19"/>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_19" linenumber="29"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <exceptionTable name="ete_0" startInstruction="//@classes.0/@methods.2/@instructions.4" endInstruction="//@classes.0/@methods.2/@instructions.6" handlerInstruction="//@classes.0/@methods.2/@instructions.7">
+        <catchType typeDescriptor="Ljava/lang/Exception;"/>
+      </exceptionTable>
+      <exceptionTable name="ete_1" startInstruction="//@classes.0/@methods.2/@instructions.4" endInstruction="//@classes.0/@methods.2/@instructions.15" handlerInstruction="//@classes.0/@methods.2/@instructions.16"/>
+      <exceptionTable name="ete_2" startInstruction="//@classes.0/@methods.2/@instructions.16" endInstruction="//@classes.0/@methods.2/@instructions.18" handlerInstruction="//@classes.0/@methods.2/@instructions.16"/>
+      <localVariableTable name="e" startInstruction="//@classes.0/@methods.2/@instructions.8" endInstruction="//@classes.0/@methods.2/@instructions.12" index="1">
+        <descriptor typeDescriptor="Ljava/lang/Exception;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="map" public="true" firstInstruction="//@classes.0/@methods.3/@instructions.0" static="true">
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_0" linenumber="32">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="32">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_2" linenumber="32" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorenterInstruction" name="idx_3" linenumber="32">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_4" linenumber="33">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.5"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_5" linenumber="33">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.6"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="isStarted">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+          <descriptor>
+            <resultType typeDescriptor="Z"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IfneInstruction" name="idx_6" linenumber="33">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.3/@instructions.8" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.3/@instructions.7"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_7" linenumber="34">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.8"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="start">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_8" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.9"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <typeReference typeDescriptor="Ljava/lang/StringBuilder;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_9" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.10"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_10" linenumber="36" constant="/">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.11"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_11" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.12"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_12" linenumber="36" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.13"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_13" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.14"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="getSimpleName">
+          <declaringClass typeDescriptor="Ljava/lang/Class;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_14" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.15"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_15" linenumber="36">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.16"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="toString">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_16" linenumber="36" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.17"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_17" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.18"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <fieldReference name="handler">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_18" linenumber="37" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.19"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_19" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.20"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <typeReference typeDescriptor="Ljava/lang/StringBuilder;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_20" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.21"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_21" linenumber="37" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.22"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_22" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.23"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="valueOf">
+          <declaringClass typeDescriptor="Ljava/lang/String;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_23" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.24"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_24" linenumber="37" constant="/*">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.25"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_25" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.26"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_26" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.27"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="toString">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_27" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.28"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="addServletWithMapping">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/Class;"/>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHolder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:PopInstruction" name="idx_28" linenumber="37">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.29"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetstaticInstruction" name="idx_29" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.30"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <fieldReference name="jetty">
+          <declaringClass typeDescriptor="Lorg/jsoup/integration/TestServer;"/>
+          <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_30" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.31"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="getConnectors">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+          <descriptor>
+            <resultType typeDescriptor="[Lorg/eclipse/jetty/server/Connector;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_31" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.32"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:AaloadInstruction" name="idx_32" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.33"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:CheckcastInstruction" name="idx_33" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.34"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <typeReference typeDescriptor="Lorg/eclipse/jetty/server/ServerConnector;"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_34" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.35"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="getLocalPort">
+          <declaringClass typeDescriptor="Lorg/eclipse/jetty/server/ServerConnector;"/>
+          <descriptor>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IstoreInstruction" name="idx_35" linenumber="38" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.36"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_36" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.37"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <typeReference typeDescriptor="Ljava/lang/StringBuilder;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_37" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.38"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_38" linenumber="39" constant="http://localhost:">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.39"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_39" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.40"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_40" linenumber="39" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.41"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_41" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.42"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_42" linenumber="39" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.43"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_43" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.44"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="append">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Ljava/lang/StringBuilder;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_44" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.45"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+        <methodReference name="toString">
+          <declaringClass typeDescriptor="Ljava/lang/StringBuilder;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/String;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_45" linenumber="39" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.46"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorexitInstruction" name="idx_46" linenumber="39">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.47"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.0"/>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_47" linenumber="39">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.3/@instructions.48"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_48" linenumber="32" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.49"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:MonitorexitInstruction" name="idx_49" linenumber="32">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.50"/>
+        <outEdges xsi:type="jbc:ExceptionalEdge" end="//@classes.0/@methods.3/@instructions.48" exceptionTableEntry="//@classes.0/@methods.3/@exceptionTable.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AthrowInstruction" name="idx_50" linenumber="32"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/Class;"/>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="Class">
+            <typeArgument xsi:type="jbc:TypeConcrete" WildcardIndicator="SUB">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/integration/servlets/">
+                <simpleClassSignature identifier="BaseServlet"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </typeSignature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </returnType>
+      </signature>
+      <exceptionTable name="ete_0" startInstruction="//@classes.0/@methods.3/@instructions.4" endInstruction="//@classes.0/@methods.3/@instructions.47" handlerInstruction="//@classes.0/@methods.3/@instructions.48"/>
+      <exceptionTable name="ete_1" startInstruction="//@classes.0/@methods.3/@instructions.48" endInstruction="//@classes.0/@methods.3/@instructions.50" handlerInstruction="//@classes.0/@methods.3/@instructions.48"/>
+      <localVariableTable name="servletClass" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.50" index="0">
+        <signature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="Class">
+            <typeArgument xsi:type="jbc:TypeConcrete" WildcardIndicator="SUB">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/integration/servlets/">
+                <simpleClassSignature identifier="BaseServlet"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </signature>
+        <descriptor typeDescriptor="Ljava/lang/Class;"/>
+      </localVariableTable>
+      <localVariableTable name="path" startInstruction="//@classes.0/@methods.3/@instructions.17" endInstruction="//@classes.0/@methods.3/@instructions.47" index="2">
+        <descriptor typeDescriptor="Ljava/lang/String;"/>
+      </localVariableTable>
+      <localVariableTable name="port" startInstruction="//@classes.0/@methods.3/@instructions.36" endInstruction="//@classes.0/@methods.3/@instructions.47" index="3">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <fields name="jetty" private="true" static="true" final="true">
+      <descriptor typeDescriptor="Lorg/eclipse/jetty/server/Server;"/>
+    </fields>
+    <fields name="handler" private="true" static="true" final="true">
+      <descriptor typeDescriptor="Lorg/eclipse/jetty/servlet/ServletHandler;"/>
+    </fields>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/Connection$KeyVal" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" sourceFileName="Connection.java">
+    <methods name="key" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+      </descriptor>
+    </methods>
+    <methods name="key" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="value" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+      </descriptor>
+    </methods>
+    <methods name="value" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="inputStream" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/io/InputStream;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+      </descriptor>
+    </methods>
+    <methods name="inputStream" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/io/InputStream;"/>
+      </descriptor>
+    </methods>
+    <methods name="hasInputStream" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="contentType" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+      </descriptor>
+    </methods>
+    <methods name="contentType" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <innerClasses name="org/jsoup/Connection$KeyVal" public="true" static="true" interface="true" abstract="true" innerName="KeyVal">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

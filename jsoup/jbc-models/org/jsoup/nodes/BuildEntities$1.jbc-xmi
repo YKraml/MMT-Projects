@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/nodes/BuildEntities$1" minorVersion="0" majorVersion="52" super="true" sourceFileName="BuildEntities.java">
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="32" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="32">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lcom/google/gson/reflect/TypeToken;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="32"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/BuildEntities$1;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Lcom/google/gson/reflect/TypeToken;"/>
+    <signature>
+      <superClassSignature packagespecifier="com/google/gson/reflect/">
+        <simpleClassSignature identifier="TypeToken">
+          <typeArgument xsi:type="jbc:TypeConcrete">
+            <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+              <simpleClassSignature identifier="Map">
+                <typeArgument xsi:type="jbc:TypeConcrete">
+                  <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                    <simpleClassSignature identifier="String"/>
+                  </fieldTypeSignature>
+                </typeArgument>
+                <typeArgument xsi:type="jbc:TypeConcrete">
+                  <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/nodes/">
+                    <simpleClassSignature identifier="BuildEntities$CharacterRef"/>
+                  </fieldTypeSignature>
+                </typeArgument>
+              </simpleClassSignature>
+            </fieldTypeSignature>
+          </typeArgument>
+        </simpleClassSignature>
+      </superClassSignature>
+    </signature>
+    <outerClass typeDescriptor="Lorg/jsoup/nodes/BuildEntities;"/>
+    <enclosingMethod name="main">
+      <declaringClass typeDescriptor="Lorg/jsoup/nodes/BuildEntities;"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="[Ljava/lang/String;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </enclosingMethod>
+    <innerClasses name="org/jsoup/nodes/BuildEntities$1"/>
+    <innerClasses name="org/jsoup/nodes/BuildEntities$CharacterRef" private="true" static="true" innerName="CharacterRef">
+      <outerName typeDescriptor="org/jsoup/nodes/BuildEntities"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

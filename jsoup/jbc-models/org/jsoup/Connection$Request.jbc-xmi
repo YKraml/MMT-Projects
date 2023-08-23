@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/Connection$Request" public="true" minorVersion="0" majorVersion="52" interface="true" abstract="true" sourceFileName="Connection.java">
+    <methods name="proxy" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/net/Proxy;"/>
+      </descriptor>
+    </methods>
+    <methods name="headers" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/util/List;"/>
+      </descriptor>
+      <signature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="List">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="hasHeaderWithValue" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="hasHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="removeHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="proxy" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/net/Proxy;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="method" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Method;"/>
+      </descriptor>
+    </methods>
+    <methods name="proxy" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="timeout" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+    </methods>
+    <methods name="timeout" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="maxBodySize" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+    </methods>
+    <methods name="maxBodySize" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="followRedirects" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="followRedirects" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Z"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="ignoreHttpErrors" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="ignoreHttpErrors" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Z"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="ignoreContentType" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+    </methods>
+    <methods name="ignoreContentType" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Z"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="sslSocketFactory" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <resultType typeDescriptor="Ljavax/net/ssl/SSLSocketFactory;"/>
+      </descriptor>
+    </methods>
+    <methods name="sslSocketFactory" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljavax/net/ssl/SSLSocketFactory;"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+    </methods>
+    <methods name="data" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="data" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Collection;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Collection">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/">
+                <simpleClassSignature identifier="Connection$KeyVal"/>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="requestBody" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="requestBody" public="true" abstract="true">
+      <runtimeVisibleAnnotations>
+        <type typeDescriptor="Ljavax/annotation/Nullable;"/>
+      </runtimeVisibleAnnotations>
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="parser" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="parser" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+      </descriptor>
+    </methods>
+    <methods name="postDataCharset" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="postDataCharset" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="addHeader" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="cookie" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="header" public="true" abstract="true">
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Ljava/lang/String;"/>
+      </descriptor>
+    </methods>
+    <methods name="multiHeaders" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/util/Map;"/>
+      </descriptor>
+      <signature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="Map">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                <simpleClassSignature identifier="String"/>
+              </fieldTypeSignature>
+            </typeArgument>
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+                <simpleClassSignature identifier="List">
+                  <typeArgument xsi:type="jbc:TypeConcrete">
+                    <fieldTypeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+                      <simpleClassSignature identifier="String"/>
+                    </fieldTypeSignature>
+                  </typeArgument>
+                </simpleClassSignature>
+              </fieldTypeSignature>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+    </methods>
+    <methods name="url" public="true" abstract="true">
+      <descriptor>
+        <resultType typeDescriptor="Ljava/net/URL;"/>
+      </descriptor>
+    </methods>
+    <methods name="addHeader" public="true" firstInstruction="//@classes.0/@methods.33/@instructions.0" synthetic="true" bridge="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.33/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.33/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.33/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokeinterfaceInstruction" name="idx_3" linenumber="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.33/@instructions.4"/>
+        <methodReference name="addHeader">
+          <declaringClass typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_4" linenumber="1"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+    </methods>
+    <methods name="removeHeader" public="true" firstInstruction="//@classes.0/@methods.34/@instructions.0" synthetic="true" bridge="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokeinterfaceInstruction" name="idx_2" linenumber="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.3"/>
+        <methodReference name="removeHeader">
+          <declaringClass typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_3" linenumber="1"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+      </descriptor>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <interfaces typeDescriptor="Lorg/jsoup/Connection$Base;"/>
+    <signature>
+      <superClassSignature packagespecifier="java/lang/">
+        <simpleClassSignature identifier="Object"/>
+      </superClassSignature>
+    </signature>
+    <innerClasses name="org/jsoup/Connection$Base" public="true" static="true" interface="true" abstract="true" innerName="Base">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/Connection$KeyVal" public="true" static="true" interface="true" abstract="true" innerName="KeyVal">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/Connection$Method" public="true" final="true" static="true" enum="true" innerName="Method">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+    <innerClasses name="org/jsoup/Connection$Request" public="true" static="true" interface="true" abstract="true" innerName="Request">
+      <outerName typeDescriptor="org/jsoup/Connection"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>
