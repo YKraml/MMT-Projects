@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="com/thealgorithms/maths/code/DigitalRoot" public="true" minorVersion="0" majorVersion="64" super="true" sourceFileName="DigitalRoot.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="43" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="43">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="43"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="digitalRoot" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0" static="true">
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_0" linenumber="46" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_1" linenumber="46">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+        <methodReference name="single">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:BipushInstruction" name="idx_2" linenumber="46" operand="9">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:If_icmpgtInstruction" name="idx_3" linenumber="46">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.1/@instructions.7" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_4" linenumber="48" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_5" linenumber="48">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.6"/>
+        <methodReference name="single">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_6" linenumber="48">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.1/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_7" linenumber="50" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_8" linenumber="50">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.9"/>
+        <methodReference name="single">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_9" linenumber="50">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.10"/>
+        <methodReference name="digitalRoot">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_10" linenumber="50"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="n" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.10" index="0">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <methods name="single" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0" static="true">
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_0" linenumber="56" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:BipushInstruction" name="idx_1" linenumber="56" operand="9">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:If_icmpgtInstruction" name="idx_2" linenumber="56">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.5" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_3" linenumber="57" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_4" linenumber="57">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_5" linenumber="59" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:BipushInstruction" name="idx_6" linenumber="59" operand="10">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:IremInstruction" name="idx_7" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_8" linenumber="59" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:BipushInstruction" name="idx_9" linenumber="59" operand="10">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:IdivInstruction" name="idx_10" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_11" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.12"/>
+        <methodReference name="single">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/DigitalRoot;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IaddInstruction" name="idx_12" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_13" linenumber="59"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="n" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.13" index="0">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>

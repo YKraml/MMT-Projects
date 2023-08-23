@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="com/thealgorithms/maths/code/Volume" public="true" minorVersion="0" majorVersion="64" super="true" sourceFileName="Volume.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="4" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="4">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="4"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/Volume;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeCube" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0" static="true">
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_0" linenumber="13" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="13" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="13">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="13" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="13">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_5" linenumber="13"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="sideLength" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.5" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeCuboid" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0" static="true">
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_0" linenumber="25" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="25" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="25">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="25" localVariable="//@classes.0/@methods.2/@localVariableTable.2" varIndex="4">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="25">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_5" linenumber="25"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="width" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.5" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="height" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.5" index="2">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="length" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.5" index="4">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeSphere" public="true" firstInstruction="//@classes.0/@methods.3/@instructions.0" static="true">
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_0" linenumber="38" constant="12.566370614359172">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="38" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="38" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_5" linenumber="38" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_6" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_7" linenumber="38" constant="3.0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:DdivInstruction" name="idx_8" linenumber="38">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_9" linenumber="38"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="radius" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.9" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeCylinder" public="true" firstInstruction="//@classes.0/@methods.4/@instructions.0" static="true">
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_0" linenumber="49" constant="3.141592653589793">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="49" localVariable="//@classes.0/@methods.4/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="49">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="49" localVariable="//@classes.0/@methods.4/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="49">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_5" linenumber="49" localVariable="//@classes.0/@methods.4/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_6" linenumber="49">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_7" linenumber="49"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="radius" startInstruction="//@classes.0/@methods.4/@instructions.0" endInstruction="//@classes.0/@methods.4/@instructions.7" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="height" startInstruction="//@classes.0/@methods.4/@instructions.0" endInstruction="//@classes.0/@methods.4/@instructions.7" index="2">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeHemisphere" public="true" firstInstruction="//@classes.0/@methods.5/@instructions.0" static="true">
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_0" linenumber="59" constant="6.283185307179586">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="59" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="59" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_5" linenumber="59" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_6" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_7" linenumber="59" constant="3.0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:DdivInstruction" name="idx_8" linenumber="59">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_9" linenumber="59"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="radius" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.9" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumeCone" public="true" firstInstruction="//@classes.0/@methods.6/@instructions.0" static="true">
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_0" linenumber="70" constant="3.141592653589793">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="70" localVariable="//@classes.0/@methods.6/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="70">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_3" linenumber="70" localVariable="//@classes.0/@methods.6/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_4" linenumber="70">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_5" linenumber="70" localVariable="//@classes.0/@methods.6/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_6" linenumber="70">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_7" linenumber="70" constant="3.0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:DdivInstruction" name="idx_8" linenumber="70">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.6/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_9" linenumber="70"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="radius" startInstruction="//@classes.0/@methods.6/@instructions.0" endInstruction="//@classes.0/@methods.6/@instructions.9" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="height" startInstruction="//@classes.0/@methods.6/@instructions.0" endInstruction="//@classes.0/@methods.6/@instructions.9" index="2">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumePrism" public="true" firstInstruction="//@classes.0/@methods.7/@instructions.0" static="true">
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_0" linenumber="81" localVariable="//@classes.0/@methods.7/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="81" localVariable="//@classes.0/@methods.7/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="81">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_3" linenumber="81"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="baseArea" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.3" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="height" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.3" index="2">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <methods name="volumePyramid" public="true" firstInstruction="//@classes.0/@methods.8/@instructions.0" static="true">
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_0" linenumber="92" localVariable="//@classes.0/@methods.8/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.8/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:DloadInstruction" name="idx_1" linenumber="92" localVariable="//@classes.0/@methods.8/@localVariableTable.1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.8/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:DmulInstruction" name="idx_2" linenumber="92">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.8/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcDoubleInstruction" name="idx_3" linenumber="92" constant="3.0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.8/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:DdivInstruction" name="idx_4" linenumber="92">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.8/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_5" linenumber="92"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="D"/>
+        <parameterTypes typeDescriptor="D"/>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="baseArea" startInstruction="//@classes.0/@methods.8/@instructions.0" endInstruction="//@classes.0/@methods.8/@instructions.5" index="0">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+      <localVariableTable name="height" startInstruction="//@classes.0/@methods.8/@instructions.0" endInstruction="//@classes.0/@methods.8/@instructions.5" index="2">
+        <descriptor typeDescriptor="D"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>

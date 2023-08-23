@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="com/thealgorithms/maths/code/VectorCrossProduct" public="true" minorVersion="0" majorVersion="64" super="true" sourceFileName="VectorCrossProduct.java">
+    <methods name="&lt;init>" public="true" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="61" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="61">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="62" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_3" linenumber="62" localVariable="//@classes.0/@methods.0/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_4" linenumber="62">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.5"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="63" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_6" linenumber="63" localVariable="//@classes.0/@methods.0/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_7" linenumber="63">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.8"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_8" linenumber="64" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_9" linenumber="64" localVariable="//@classes.0/@methods.0/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_10" linenumber="64">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.11"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_11" linenumber="65"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="I"/>
+        <parameterTypes typeDescriptor="I"/>
+        <parameterTypes typeDescriptor="I"/>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.11" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+      <localVariableTable name="x2" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.11" index="1">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+      <localVariableTable name="y2" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.11" index="2">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+      <localVariableTable name="z2" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.11" index="3">
+        <descriptor typeDescriptor="I"/>
+      </localVariableTable>
+    </methods>
+    <methods name="magnitude" public="true" firstInstruction="//@classes.0/@methods.1/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_1" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_3" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_4" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_6" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.7"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_7" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_8" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.9"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_9" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:IaddInstruction" name="idx_10" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_11" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.12"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_12" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.13"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_13" linenumber="73" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_14" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.15"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_15" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:IaddInstruction" name="idx_16" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:I2dInstruction" name="idx_17" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.18"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_18" linenumber="73">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.19"/>
+        <methodReference name="sqrt">
+          <declaringClass typeDescriptor="Ljava/lang/Math;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="D"/>
+            <resultType typeDescriptor="D"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:DreturnInstruction" name="idx_19" linenumber="73"/>
+      <descriptor>
+        <resultType typeDescriptor="D"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.19" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="dotProduct" public="true" firstInstruction="//@classes.0/@methods.2/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_1" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_3" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_4" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_6" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.7"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_7" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_8" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.9"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_9" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:IaddInstruction" name="idx_10" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_11" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.12"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_12" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_13" linenumber="83" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_14" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.15"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_15" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:IaddInstruction" name="idx_16" linenumber="83">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_17" linenumber="83"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.17" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+      <localVariableTable name="b" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.17" index="1">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="crossProduct" public="true" firstInstruction="//@classes.0/@methods.3/@instructions.0">
+      <instructions xsi:type="jbc:NewInstruction" name="idx_0" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+        <typeReference typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_1" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_2" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_3" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_4" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_5" linenumber="93">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.6"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <parameterTypes typeDescriptor="I"/>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_6" linenumber="93" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_7" linenumber="94" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_8" linenumber="94" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_9" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.10"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_10" linenumber="94" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_11" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.12"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_12" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.13"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_13" linenumber="94" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_14" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.15"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_15" linenumber="94" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_16" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.17"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_17" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.18"/>
+      </instructions>
+      <instructions xsi:type="jbc:IsubInstruction" name="idx_18" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.19"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_19" linenumber="94">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.20"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_20" linenumber="95" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.21"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_21" linenumber="95" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.22"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_22" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.23"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_23" linenumber="95" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.24"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_24" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.25"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_25" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.26"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_26" linenumber="95" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.27"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_27" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.28"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_28" linenumber="95" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.29"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_29" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.30"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_30" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.31"/>
+      </instructions>
+      <instructions xsi:type="jbc:IsubInstruction" name="idx_31" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.32"/>
+      </instructions>
+      <instructions xsi:type="jbc:InegInstruction" name="idx_32" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.33"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_33" linenumber="95">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.34"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_34" linenumber="96" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.35"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_35" linenumber="96" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.36"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_36" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.37"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_37" linenumber="96" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.38"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_38" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.39"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_39" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.40"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_40" linenumber="96" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.41"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_41" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.42"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_42" linenumber="96" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.43"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_43" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.44"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:ImulInstruction" name="idx_44" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.45"/>
+      </instructions>
+      <instructions xsi:type="jbc:IsubInstruction" name="idx_45" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.46"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_46" linenumber="96">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.47"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_47" linenumber="98" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.48"/>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_48" linenumber="98"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+        <resultType typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.48" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+      <localVariableTable name="b" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.48" index="1">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+      <localVariableTable name="product" startInstruction="//@classes.0/@methods.3/@instructions.7" endInstruction="//@classes.0/@methods.3/@instructions.48" index="2">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="hashCode" public="true" firstInstruction="//@classes.0/@methods.4/@instructions.0">
+      <instructions xsi:type="jbc:Iconst_3Instruction" name="idx_0" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AnewarrayInstruction" name="idx_1" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.2"/>
+        <typeReference typeDescriptor="Ljava/lang/Object;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_2" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_3" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="103" localVariable="//@classes.0/@methods.4/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_5" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.6"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_6" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.7"/>
+        <methodReference name="valueOf">
+          <declaringClass typeDescriptor="Ljava/lang/Integer;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="Ljava/lang/Integer;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AastoreInstruction" name="idx_7" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_8" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_9" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_10" linenumber="103" localVariable="//@classes.0/@methods.4/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_11" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.12"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_12" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.13"/>
+        <methodReference name="valueOf">
+          <declaringClass typeDescriptor="Ljava/lang/Integer;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="Ljava/lang/Integer;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AastoreInstruction" name="idx_13" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_14" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.15"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_2Instruction" name="idx_15" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_16" linenumber="103" localVariable="//@classes.0/@methods.4/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_17" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.18"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_18" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.19"/>
+        <methodReference name="valueOf">
+          <declaringClass typeDescriptor="Ljava/lang/Integer;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="I"/>
+            <resultType typeDescriptor="Ljava/lang/Integer;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AastoreInstruction" name="idx_19" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.20"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_20" linenumber="103">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.4/@instructions.21"/>
+        <methodReference name="hash">
+          <declaringClass typeDescriptor="Ljava/util/Objects;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="[Ljava/lang/Object;"/>
+            <resultType typeDescriptor="I"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_21" linenumber="103"/>
+      <descriptor>
+        <resultType typeDescriptor="I"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.4/@instructions.0" endInstruction="//@classes.0/@methods.4/@instructions.21" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="equals" public="true" firstInstruction="//@classes.0/@methods.5/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="108" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="108" localVariable="//@classes.0/@methods.5/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:If_acmpneInstruction" name="idx_2" linenumber="108">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.5" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_3" linenumber="109">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.4"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_4" linenumber="109">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.5/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="110" localVariable="//@classes.0/@methods.5/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:IfnonnullInstruction" name="idx_6" linenumber="110">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.9" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_7" linenumber="111">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_8" linenumber="111">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.5/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_9" linenumber="112" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_10" linenumber="112">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.11"/>
+        <methodReference name="getClass">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/Class;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_11" linenumber="112" localVariable="//@classes.0/@methods.5/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.12"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_12" linenumber="112">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.13"/>
+        <methodReference name="getClass">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="Ljava/lang/Class;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:If_acmpeqInstruction" name="idx_13" linenumber="112">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.16" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_14" linenumber="113">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.15"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_15" linenumber="113">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.5/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_16" linenumber="114" localVariable="//@classes.0/@methods.5/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:CheckcastInstruction" name="idx_17" linenumber="114">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.18"/>
+        <typeReference typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_18" linenumber="114" localVariable="//@classes.0/@methods.5/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.19"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_19" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.20"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_20" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.21"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_21" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.22"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_22" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.23"/>
+        <fieldReference name="x1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:If_icmpneInstruction" name="idx_23" linenumber="115">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.36" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.24"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_24" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.25"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_25" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.26"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_26" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.27"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_27" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.28"/>
+        <fieldReference name="y1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:If_icmpneInstruction" name="idx_28" linenumber="115">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.36" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.29"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_29" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.30"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_30" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.31"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_31" linenumber="115" localVariable="//@classes.0/@methods.5/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.32"/>
+      </instructions>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_32" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.33"/>
+        <fieldReference name="z1">
+          <declaringClass typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+          <descriptor typeDescriptor="I"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:If_icmpneInstruction" name="idx_33" linenumber="115">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.36" condition="true"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.5/@instructions.34"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_1Instruction" name="idx_34" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.35"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_35" linenumber="115">
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.5/@instructions.36"/>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_36" linenumber="115">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.37"/>
+      </instructions>
+      <instructions xsi:type="jbc:IreturnInstruction" name="idx_37" linenumber="115"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+        <resultType typeDescriptor="Z"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.37" index="0">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+      <localVariableTable name="obj" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.37" index="1">
+        <descriptor typeDescriptor="Ljava/lang/Object;"/>
+      </localVariableTable>
+      <localVariableTable name="other" startInstruction="//@classes.0/@methods.5/@instructions.19" endInstruction="//@classes.0/@methods.5/@instructions.37" index="2">
+        <descriptor typeDescriptor="Lcom/thealgorithms/maths/code/VectorCrossProduct;"/>
+      </localVariableTable>
+    </methods>
+    <fields name="x1">
+      <descriptor typeDescriptor="I"/>
+    </fields>
+    <fields name="y1">
+      <descriptor typeDescriptor="I"/>
+    </fields>
+    <fields name="z1">
+      <descriptor typeDescriptor="I"/>
+    </fields>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+  </classes>
+</jbc:Project>
