@@ -31,8 +31,8 @@ public class Main {
       "experiment/maths/random"
   };
 
-  private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[4]);
-  private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[5]);
+  private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[2]);
+  private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[3]);
   private final static PlotterImpl plotter = new PlotterImpl();
   private final static TableFunction[] tableFunctions = new TableFunction[]{
       new NumberOfFoundTestcasesVsNumberOfMutants(), new NumberOfStrongMutantsVsNumberOfMutants(),

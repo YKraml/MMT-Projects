@@ -5,11 +5,7 @@ Implementation-Version: 1.16.2-SNAPSHOT
 Implementation-Vendor: Jonathan Hedley
 Automatic-Module-Name: org.jsoup
 Created-By: Apache Maven Bundle Plugin 5.1.8
-<<<<<<< HEAD
-Bnd-LastModified: 1692877077348
-=======
-Bnd-LastModified: 1692867277700
->>>>>>> dd9f14aba86a32946317dabd77bd73e14a79a37b
+Bnd-LastModified: 1692886930768
 Bundle-Description: jsoup is a Java library for working with real-world 
  HTML. It provides a very convenient API for fetching URLs and extractin
  g and manipulating data, using the best of HTML5 DOM methods and CSS se
@@ -22,25 +18,23 @@ Bundle-Name: jsoup Java HTML Parser
 Bundle-SymbolicName: org.jsoup
 Bundle-Vendor: Jonathan Hedley
 Bundle-Version: 1.16.2.SNAPSHOT
-Export-Package: org.jsoup;version="1.16.2";uses:="javax.annotation,javax
- .net.ssl,org.jsoup.nodes,org.jsoup.parser,org.jsoup.safety",org.jsoup.e
- xamples;version="1.16.2";uses:="org.jsoup.nodes",org.jsoup.helper;versi
- on="1.16.2";uses:="javax.annotation,javax.net.ssl,javax.xml.parsers,org
- .jsoup,org.jsoup.nodes,org.jsoup.parser,org.jsoup.select,org.w3c.dom",o
- rg.jsoup.internal;version="1.16.2";uses:="javax.annotation,javax.annota
- tion.meta",org.jsoup.nodes;version="1.16.2";uses:="javax.annotation,org
- .jsoup,org.jsoup.parser,org.jsoup.select",org.jsoup.parser;version="1.1
- 6.2";uses:="javax.annotation,org.jsoup.nodes",org.jsoup.safety;version=
- "1.16.2";uses:="org.jsoup.nodes",org.jsoup.select;version="1.16.2";uses
- :="javax.annotation,org.jsoup.nodes"
+Export-Package: org.jsoup;uses:="javax.annotation,javax.net.ssl,org.jsou
+ p.nodes,org.jsoup.parser,org.jsoup.safety";version="1.16.2",org.jsoup.e
+ xamples;uses:="org.jsoup.nodes";version="1.16.2",org.jsoup.helper;uses:
+ ="javax.annotation,javax.net.ssl,javax.xml.parsers,org.jsoup,org.jsoup.
+ nodes,org.jsoup.parser,org.jsoup.select,org.w3c.dom";version="1.16.2",o
+ rg.jsoup.internal;uses:="javax.annotation,javax.annotation.meta";versio
+ n="1.16.2",org.jsoup.nodes;uses:="javax.annotation,org.jsoup,org.jsoup.
+ parser,org.jsoup.select";version="1.16.2",org.jsoup.parser;uses:="javax
+ .annotation,org.jsoup.nodes";version="1.16.2",org.jsoup.safety;uses:="o
+ rg.jsoup.nodes";version="1.16.2",org.jsoup.select;uses:="javax.annotati
+ on,org.jsoup.nodes";version="1.16.2"
 Import-Package: javax.annotation;resolution:=optional,javax.annotation.m
  eta;resolution:=optional,javax.net.ssl,javax.xml.namespace,javax.xml.pa
  rsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.s
- tream,javax.xml.xpath,org.jsoup;version="[1.16,2)",org.jsoup.helper;ver
- sion="[1.16,2)",org.jsoup.internal;version="[1.16,2)",org.jsoup.nodes;v
- ersion="[1.16,2)",org.jsoup.parser;version="[1.16,2)",org.jsoup.safety;
- version="[1.16,2)",org.jsoup.select;version="[1.16,2)",org.w3c.dom
-Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+ tream,javax.xml.xpath,org.jsoup,org.jsoup.helper,org.jsoup.internal,org
+ .jsoup.nodes,org.jsoup.parser,org.jsoup.safety,org.jsoup.select,org.w3c
+ .dom
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-6.3.1.202206071316
 
