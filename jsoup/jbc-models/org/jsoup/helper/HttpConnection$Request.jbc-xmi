@@ -1633,18 +1633,41 @@
         <resultType typeDescriptor="Ljava/util/List;"/>
       </descriptor>
     </methods>
-    <methods name="proxy" public="true" firstInstruction="//@classes.0/@methods.34/@instructions.0" synthetic="true" bridge="true">
+    <methods name="data" public="true" firstInstruction="//@classes.0/@methods.34/@instructions.0" synthetic="true" bridge="true">
       <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.1"/>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.2"/>
       </instructions>
-      <instructions xsi:type="jbc:IloadInstruction" name="idx_2" linenumber="1" varIndex="2">
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_2" linenumber="1">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.3"/>
+        <methodReference name="data">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+            <resultType typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_3" linenumber="1"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
+        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
+      </descriptor>
+    </methods>
+    <methods name="proxy" public="true" firstInstruction="//@classes.0/@methods.35/@instructions.0" synthetic="true" bridge="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.2"/>
+      </instructions>
+      <instructions xsi:type="jbc:IloadInstruction" name="idx_2" linenumber="1" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.3"/>
       </instructions>
       <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_3" linenumber="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.34/@instructions.4"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.4"/>
         <methodReference name="proxy">
           <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
           <descriptor>
@@ -1661,15 +1684,15 @@
         <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
       </descriptor>
     </methods>
-    <methods name="proxy" public="true" firstInstruction="//@classes.0/@methods.35/@instructions.0" synthetic="true" bridge="true">
+    <methods name="proxy" public="true" firstInstruction="//@classes.0/@methods.36/@instructions.0" synthetic="true" bridge="true">
       <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.1"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.1"/>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.2"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.2"/>
       </instructions>
       <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_2" linenumber="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.35/@instructions.3"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.3"/>
         <methodReference name="proxy">
           <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
           <descriptor>
@@ -1681,29 +1704,6 @@
       <instructions xsi:type="jbc:AreturnInstruction" name="idx_3" linenumber="1"/>
       <descriptor>
         <parameterTypes typeDescriptor="Ljava/net/Proxy;"/>
-        <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
-      </descriptor>
-    </methods>
-    <methods name="data" public="true" firstInstruction="//@classes.0/@methods.36/@instructions.0" synthetic="true" bridge="true">
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="1" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.1"/>
-      </instructions>
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_1" linenumber="1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.2"/>
-      </instructions>
-      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_2" linenumber="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.36/@instructions.3"/>
-        <methodReference name="data">
-          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
-          <descriptor>
-            <parameterTypes typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
-            <resultType typeDescriptor="Lorg/jsoup/helper/HttpConnection$Request;"/>
-          </descriptor>
-        </methodReference>
-      </instructions>
-      <instructions xsi:type="jbc:AreturnInstruction" name="idx_3" linenumber="1"/>
-      <descriptor>
-        <parameterTypes typeDescriptor="Lorg/jsoup/Connection$KeyVal;"/>
         <resultType typeDescriptor="Lorg/jsoup/Connection$Request;"/>
       </descriptor>
     </methods>

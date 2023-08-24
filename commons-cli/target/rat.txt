@@ -5,7 +5,7 @@ Summary
 Generated at: 2023-08-24T00:13:33+02:00
 
 Notes: 0
-Binaries: 36
+Binaries: 5
 Archives: 0
 Standards: 120
 
@@ -66,37 +66,6 @@ Files with unapproved licenses:
   Binary files (which do not require any license headers) will be marked B
   Compressed archives will be marked A
   Notices, licenses etc. will be marked N
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/AlreadySelectedException.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/AmbiguousOptionException.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/BasicParser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/CommandLine$Builder.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/CommandLine.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/CommandLineParser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/DefaultParser$Builder.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/DefaultParser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/GnuParser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/HelpFormatter$OptionComparator.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/HelpFormatter.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/HelpFormatterTest$1.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/MissingArgumentException.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/MissingOptionException.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/Option$Builder.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/Option.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/OptionBuilder.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/OptionGroup.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/Options.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/OptionTest$DefaultOption.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/OptionTest$TestOption.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/OptionValidator.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/package-info.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/ParseException.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/Parser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/PatternOptionBuilder.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/PosixParser.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/TypeHandler.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/TypeHandlerTest$Instantiable.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/TypeHandlerTest$NotInstantiable.class
-  B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/UnrecognizedOptionException.class
   B     C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-gen/org/apache/commons/cli/Util.class
  !????? C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-models/org/apache/commons/cli/AlreadySelectedException.jbc-xmi
  !????? C:/Users/yanni/eclipse-workspace/MMT-Projects/commons-cli/jbc-models/org/apache/commons/cli/AmbiguousOptionException.jbc-xmi
