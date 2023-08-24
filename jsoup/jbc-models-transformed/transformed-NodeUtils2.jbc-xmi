@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jbc:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jbc="https://modbeam.bitbucket.io/jbc">
+  <classes name="org/jsoup/nodes/NodeUtils" minorVersion="0" majorVersion="52" final="true" super="true" sourceFileName="NodeUtils.java">
+    <methods name="&lt;init>" firstInstruction="//@classes.0/@methods.0/@instructions.0">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="16" localVariable="//@classes.0/@methods.0/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_1" linenumber="16">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.0/@instructions.2"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Ljava/lang/Object;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:ReturnInstruction" name="idx_2" linenumber="16"/>
+      <descriptor>
+        <resultType typeDescriptor="V"/>
+      </descriptor>
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.0/@instructions.0" endInstruction="//@classes.0/@methods.0/@instructions.2" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/NodeUtils;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="outputSettings" firstInstruction="//@classes.0/@methods.1/@instructions.0" static="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="22" localVariable="//@classes.0/@methods.1/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_1" linenumber="22">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.2"/>
+        <methodReference name="ownerDocument">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_2" linenumber="22" localVariable="//@classes.0/@methods.1/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="23" localVariable="//@classes.0/@methods.1/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.13"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="23" localVariable="//@classes.0/@methods.1/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_6" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.6"/>
+        <methodReference name="outputSettings">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/nodes/Document$OutputSettings;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:GotoInstruction" name="idx_7" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.12"/>
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.1/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_8" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.8"/>
+        <typeReference typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_9" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:LdcStringInstruction" name="idx_10" linenumber="23" constant="">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_11" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.11"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_12" linenumber="23">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.1/@instructions.12"/>
+        <methodReference name="outputSettings">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/nodes/Document$OutputSettings;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_13" linenumber="23"/>
+      <instructions xsi:type="jbc:IfnonnullInstruction" name="idx_4">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.1/@instructions.4"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.1/@instructions.7" condition="true"/>
+      </instructions>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+        <resultType typeDescriptor="Lorg/jsoup/nodes/Document$OutputSettings;"/>
+      </descriptor>
+      <localVariableTable name="node" startInstruction="//@classes.0/@methods.1/@instructions.0" endInstruction="//@classes.0/@methods.1/@instructions.12" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+      </localVariableTable>
+      <localVariableTable name="owner" startInstruction="//@classes.0/@methods.1/@instructions.3" endInstruction="//@classes.0/@methods.1/@instructions.12" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="parser" firstInstruction="//@classes.0/@methods.2/@instructions.0" static="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="30" localVariable="//@classes.0/@methods.2/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_1" linenumber="30">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.2"/>
+        <methodReference name="ownerDocument">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_2" linenumber="30" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="31" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="31" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_6" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.16"/>
+        <methodReference name="parser">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_8" linenumber="31" localVariable="//@classes.0/@methods.2/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.7"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_9" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.8"/>
+        <methodReference name="parser">
+          <declaringClass typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+          <descriptor>
+            <resultType typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:GotoInstruction" name="idx_10" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.15"/>
+        <outEdges xsi:type="jbc:ResumeEdge" end="//@classes.0/@methods.2/@instructions.9"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_11" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.10"/>
+        <typeReference typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_12" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.11"/>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_13" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.12"/>
+        <typeReference typeDescriptor="Lorg/jsoup/parser/HtmlTreeBuilder;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_14" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.13"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_15" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.14"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/HtmlTreeBuilder;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_16" linenumber="31">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.2/@instructions.15"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/parser/TreeBuilder;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_17" linenumber="31"/>
+      <instructions xsi:type="jbc:IfnonnullInstruction" name="idx_7">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.6"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.9" condition="true"/>
+      </instructions>
+      <instructions xsi:type="jbc:IfnonnullInstruction" name="idx_4">
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.4"/>
+        <outEdges xsi:type="jbc:ConditionalEdge" end="//@classes.0/@methods.2/@instructions.9" condition="true"/>
+      </instructions>
+      <descriptor>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+        <resultType typeDescriptor="Lorg/jsoup/parser/Parser;"/>
+      </descriptor>
+      <localVariableTable name="node" startInstruction="//@classes.0/@methods.2/@instructions.0" endInstruction="//@classes.0/@methods.2/@instructions.15" index="0">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Node;"/>
+      </localVariableTable>
+      <localVariableTable name="doc" startInstruction="//@classes.0/@methods.2/@instructions.3" endInstruction="//@classes.0/@methods.2/@instructions.15" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Document;"/>
+      </localVariableTable>
+    </methods>
+    <methods name="selectXpath" firstInstruction="//@classes.0/@methods.3/@instructions.0" static="true">
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_0" linenumber="41" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.1"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_1" linenumber="41">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.2"/>
+        <methodReference name="notEmpty">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/Validate;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="42" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.3"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_3" linenumber="42">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.4"/>
+        <methodReference name="notNull">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/Validate;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="43" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.5"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokestaticInstruction" name="idx_5" linenumber="43">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.6"/>
+        <methodReference name="notNull">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/Validate;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/Object;"/>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:NewInstruction" name="idx_6" linenumber="45">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.7"/>
+        <typeReference typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+      </instructions>
+      <instructions xsi:type="jbc:DupInstruction" name="idx_7" linenumber="45">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokespecialInstruction" name="idx_8" linenumber="45">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.9"/>
+        <methodReference name="&lt;init>">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <resultType typeDescriptor="V"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:Iconst_0Instruction" name="idx_9" linenumber="45">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.10"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_10" linenumber="45">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.11"/>
+        <methodReference name="namespaceAware">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Z"/>
+            <resultType typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_11" linenumber="45" localVariable="//@classes.0/@methods.3/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.12"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_12" linenumber="46" localVariable="//@classes.0/@methods.3/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.13"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_13" linenumber="46" localVariable="//@classes.0/@methods.3/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.14"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_14" linenumber="46">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.15"/>
+        <methodReference name="fromJsoup">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+            <resultType typeDescriptor="Lorg/w3c/dom/Document;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_15" linenumber="46" localVariable="//@classes.0/@methods.3/@localVariableTable.4" varIndex="4">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.16"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_16" linenumber="47" localVariable="//@classes.0/@methods.3/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.17"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_17" linenumber="47" localVariable="//@classes.0/@methods.3/@localVariableTable.4" varIndex="4">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.18"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_18" linenumber="47">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.19"/>
+        <methodReference name="contextNode">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/w3c/dom/Document;"/>
+            <resultType typeDescriptor="Lorg/w3c/dom/Node;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_19" linenumber="47" localVariable="//@classes.0/@methods.3/@localVariableTable.5" varIndex="5">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.20"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_20" linenumber="48" localVariable="//@classes.0/@methods.3/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.21"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_21" linenumber="48" localVariable="//@classes.0/@methods.3/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.22"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_22" linenumber="48" localVariable="//@classes.0/@methods.3/@localVariableTable.5" varIndex="5">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.23"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_23" linenumber="48">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.24"/>
+        <methodReference name="selectXpath">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+            <parameterTypes typeDescriptor="Lorg/w3c/dom/Node;"/>
+            <resultType typeDescriptor="Lorg/w3c/dom/NodeList;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AstoreInstruction" name="idx_24" linenumber="48" localVariable="//@classes.0/@methods.3/@localVariableTable.6" varIndex="6">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.25"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_25" linenumber="49" localVariable="//@classes.0/@methods.3/@localVariableTable.3" varIndex="3">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.26"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_26" linenumber="49" localVariable="//@classes.0/@methods.3/@localVariableTable.6" varIndex="6">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.27"/>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_27" linenumber="49" localVariable="//@classes.0/@methods.3/@localVariableTable.2" varIndex="2">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.28"/>
+      </instructions>
+      <instructions xsi:type="jbc:InvokevirtualInstruction" name="idx_28" linenumber="49">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.3/@instructions.29"/>
+        <methodReference name="sourceNodes">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+          <descriptor>
+            <parameterTypes typeDescriptor="Lorg/w3c/dom/NodeList;"/>
+            <parameterTypes typeDescriptor="Ljava/lang/Class;"/>
+            <resultType typeDescriptor="Ljava/util/List;"/>
+          </descriptor>
+        </methodReference>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_29" linenumber="49"/>
+      <descriptor>
+        <parameterTypes typeDescriptor="Ljava/lang/String;"/>
+        <parameterTypes typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+        <parameterTypes typeDescriptor="Ljava/lang/Class;"/>
+        <resultType typeDescriptor="Ljava/util/List;"/>
+      </descriptor>
+      <signature>
+        <formalTypeParameter identifier="T">
+          <classBound xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/nodes/">
+            <simpleClassSignature identifier="Node"/>
+          </classBound>
+        </formalTypeParameter>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="String"/>
+        </typeSignature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="org/jsoup/nodes/">
+          <simpleClassSignature identifier="Element"/>
+        </typeSignature>
+        <typeSignature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="Class">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+            </typeArgument>
+          </simpleClassSignature>
+        </typeSignature>
+        <returnType xsi:type="jbc:ClassTypeSignature" packagespecifier="java/util/">
+          <simpleClassSignature identifier="List">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+            </typeArgument>
+          </simpleClassSignature>
+        </returnType>
+      </signature>
+      <localVariableTable name="xpath" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.29" index="0">
+        <descriptor typeDescriptor="Ljava/lang/String;"/>
+      </localVariableTable>
+      <localVariableTable name="el" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.29" index="1">
+        <descriptor typeDescriptor="Lorg/jsoup/nodes/Element;"/>
+      </localVariableTable>
+      <localVariableTable name="nodeType" startInstruction="//@classes.0/@methods.3/@instructions.0" endInstruction="//@classes.0/@methods.3/@instructions.29" index="2">
+        <signature xsi:type="jbc:ClassTypeSignature" packagespecifier="java/lang/">
+          <simpleClassSignature identifier="Class">
+            <typeArgument xsi:type="jbc:TypeConcrete">
+              <fieldTypeSignature xsi:type="jbc:TypeVariableSignature" identifier="T"/>
+            </typeArgument>
+          </simpleClassSignature>
+        </signature>
+        <descriptor typeDescriptor="Ljava/lang/Class;"/>
+      </localVariableTable>
+      <localVariableTable name="w3c" startInstruction="//@classes.0/@methods.3/@instructions.12" endInstruction="//@classes.0/@methods.3/@instructions.29" index="3">
+        <descriptor typeDescriptor="Lorg/jsoup/helper/W3CDom;"/>
+      </localVariableTable>
+      <localVariableTable name="wDoc" startInstruction="//@classes.0/@methods.3/@instructions.16" endInstruction="//@classes.0/@methods.3/@instructions.29" index="4">
+        <descriptor typeDescriptor="Lorg/w3c/dom/Document;"/>
+      </localVariableTable>
+      <localVariableTable name="contextNode" startInstruction="//@classes.0/@methods.3/@instructions.20" endInstruction="//@classes.0/@methods.3/@instructions.29" index="5">
+        <descriptor typeDescriptor="Lorg/w3c/dom/Node;"/>
+      </localVariableTable>
+      <localVariableTable name="nodeList" startInstruction="//@classes.0/@methods.3/@instructions.25" endInstruction="//@classes.0/@methods.3/@instructions.29" index="6">
+        <descriptor typeDescriptor="Lorg/w3c/dom/NodeList;"/>
+      </localVariableTable>
+    </methods>
+    <superClass typeDescriptor="Ljava/lang/Object;"/>
+    <innerClasses name="org/jsoup/nodes/Document$OutputSettings" public="true" static="true" innerName="OutputSettings">
+      <outerName typeDescriptor="org/jsoup/nodes/Document"/>
+    </innerClasses>
+  </classes>
+</jbc:Project>

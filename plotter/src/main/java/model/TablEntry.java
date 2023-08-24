@@ -35,7 +35,7 @@ public class TablEntry {
   }
 
   public Map<String, String> getTestCases() {
-    return Collections.unmodifiableMap(testCases);
+    return testCases;
   }
 
   public List<String> getFailedTestCases() {

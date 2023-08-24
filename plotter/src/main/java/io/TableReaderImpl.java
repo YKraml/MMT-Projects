@@ -10,6 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
+import java.util.function.BiConsumer;
 import model.TablEntry;
 import model.Table;
 
@@ -39,6 +41,11 @@ public class TableReaderImpl implements TableReader {
 
     List<TablEntry> entries = new ArrayList<>();
 
+    Map<String, List<String>> testCasesColumn = new HashMap<>();
+    for (int i = 3; i < firstLine.length; i++) {
+      testCasesColumn.put(firstLine[i], new ArrayList<>());
+    }
+
     for (int j = 1; j < lines.size() - 2; j++) {
 
       String[] split = lines.get(j).split(";");
@@ -48,12 +55,24 @@ public class TableReaderImpl implements TableReader {
       boolean detected = Boolean.parseBoolean(split[2]);
       Map<String, String> testCases = new HashMap<>();
 
+
       for (int i = 3; i < firstLine.length; i++) {
         testCases.put(firstLine[i], split[i]);
+        testCasesColumn.get(firstLine[i]).add(split[i]);
       }
 
       entries.add(new TablEntry(number, mutant, detected, testCases));
     }
+
+    testCasesColumn.forEach((testCase, testResults) -> {
+      boolean oneIsOk = testResults.stream().anyMatch(s -> s.equals("OK"));
+      if(!oneIsOk){
+        for (TablEntry entry : entries) {
+          entry.getTestCases().put(testCase, "OK");
+        }
+      }
+
+    });
 
     entries.sort(Comparator.comparingInt(TablEntry::getNumber));
     return entries;
