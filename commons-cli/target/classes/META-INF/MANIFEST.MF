@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 19
+Build-Jdk-Spec: 20
 Created-By: Apache Maven Bundle Plugin 5.1.8
 Implementation-Title: Apache Commons CLI
 Implementation-Vendor: The Apache Software Foundation

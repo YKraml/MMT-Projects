@@ -1,0 +1,57 @@
+package com.thealgorithms.maths.tests;
+
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import com.thealgorithms.maths.code.AbsoluteMin;
+import com.thealgorithms.maths.code.CollatzConjecture;
+
+class CollatzConjectureTest {
+
+  static CollatzConjecture cConjecture;
+
+  @BeforeAll
+  static void setUp() {
+    cConjecture = new CollatzConjecture();
+  }
+
+  @Test
+  void nextNumberFromEvenNumber() {
+    assertEquals(25, cConjecture.nextNumber(50));
+  }
+
+  @Test
+  void nextNumberFromOddNumber() {
+    assertEquals(154, cConjecture.nextNumber(51));
+  }
+
+  
+  
+  @Test
+  void collatzConjecture() {
+    final List<Integer> expected = List.of(35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1);
+    assertIterableEquals(expected, cConjecture.collatzConjecture(35));
+  }
+
+  @Test
+  void sequenceOfNotNaturalFirstNumber() {
+
+    try {
+      cConjecture.collatzConjecture(-1);
+      fail("Expected an exception");
+    } catch (Exception e) {
+      assertTrue(e instanceof IllegalArgumentException);
+    }
+
+    try {
+      cConjecture.collatzConjecture(0);
+      fail("Expected an exception");
+    } catch (Exception e) {
+      assertTrue(e instanceof IllegalArgumentException);
+    }
+  }
+}
