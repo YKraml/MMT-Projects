@@ -1,46 +1,8 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 20
+Build-Jdk-Spec: 19
 Implementation-Title: jsoup Java HTML Parser
 Implementation-Version: 1.16.2-SNAPSHOT
 Implementation-Vendor: Jonathan Hedley
 Automatic-Module-Name: org.jsoup
-Created-By: Apache Maven Bundle Plugin 5.1.8
-<<<<<<< HEAD
-Bnd-LastModified: 1692877077348
-=======
-Bnd-LastModified: 1692867277700
->>>>>>> dd9f14aba86a32946317dabd77bd73e14a79a37b
-Bundle-Description: jsoup is a Java library for working with real-world 
- HTML. It provides a very convenient API for fetching URLs and extractin
- g and manipulating data, using the best of HTML5 DOM methods and CSS se
- lectors. jsoup implements the WHATWG HTML5 specification, and parses HT
- ML to the same DOM as modern browsers do.
-Bundle-DocURL: https://jsoup.org/
-Bundle-License: https://jsoup.org/license
-Bundle-ManifestVersion: 2
-Bundle-Name: jsoup Java HTML Parser
-Bundle-SymbolicName: org.jsoup
-Bundle-Vendor: Jonathan Hedley
-Bundle-Version: 1.16.2.SNAPSHOT
-Export-Package: org.jsoup;version="1.16.2";uses:="javax.annotation,javax
- .net.ssl,org.jsoup.nodes,org.jsoup.parser,org.jsoup.safety",org.jsoup.e
- xamples;version="1.16.2";uses:="org.jsoup.nodes",org.jsoup.helper;versi
- on="1.16.2";uses:="javax.annotation,javax.net.ssl,javax.xml.parsers,org
- .jsoup,org.jsoup.nodes,org.jsoup.parser,org.jsoup.select,org.w3c.dom",o
- rg.jsoup.internal;version="1.16.2";uses:="javax.annotation,javax.annota
- tion.meta",org.jsoup.nodes;version="1.16.2";uses:="javax.annotation,org
- .jsoup,org.jsoup.parser,org.jsoup.select",org.jsoup.parser;version="1.1
- 6.2";uses:="javax.annotation,org.jsoup.nodes",org.jsoup.safety;version=
- "1.16.2";uses:="org.jsoup.nodes",org.jsoup.select;version="1.16.2";uses
- :="javax.annotation,org.jsoup.nodes"
-Import-Package: javax.annotation;resolution:=optional,javax.annotation.m
- eta;resolution:=optional,javax.net.ssl,javax.xml.namespace,javax.xml.pa
- rsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.s
- tream,javax.xml.xpath,org.jsoup;version="[1.16,2)",org.jsoup.helper;ver
- sion="[1.16,2)",org.jsoup.internal;version="[1.16,2)",org.jsoup.nodes;v
- ersion="[1.16,2)",org.jsoup.parser;version="[1.16,2)",org.jsoup.safety;
- version="[1.16,2)",org.jsoup.select;version="[1.16,2)",org.w3c.dom
-Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-Tool: Bnd-6.3.1.202206071316
+Created-By: Maven Integration for Eclipse
 
