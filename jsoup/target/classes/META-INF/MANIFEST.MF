@@ -4,14 +4,8 @@ Implementation-Title: jsoup Java HTML Parser
 Implementation-Version: 1.16.2-SNAPSHOT
 Implementation-Vendor: Jonathan Hedley
 Automatic-Module-Name: org.jsoup
-<<<<<<< HEAD
 Created-By: Apache Maven Bundle Plugin 5.1.8
-Bnd-LastModified: 1692956960794
-=======
-<<<<<<< HEAD
-Created-By: Apache Maven Bundle Plugin 5.1.8
-Bnd-LastModified: 1693226956231
->>>>>>> c86beb33876a29f5d2bbe51c87a9e685833216ce
+Bnd-LastModified: 1693302112688
 Bundle-Description: jsoup is a Java library for working with real-world 
  HTML. It provides a very convenient API for fetching URLs and extractin
  g and manipulating data, using the best of HTML5 DOM methods and CSS se
@@ -43,10 +37,4 @@ Import-Package: javax.annotation;resolution:=optional,javax.annotation.m
  .dom
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-6.3.1.202206071316
-<<<<<<< HEAD
-=======
-=======
-Created-By: Maven Integration for Eclipse
->>>>>>> 42d5a5c368c6260dd16b6c6d89a9dac8cc39c3fc
->>>>>>> c86beb33876a29f5d2bbe51c87a9e685833216ce
 

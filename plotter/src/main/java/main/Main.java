@@ -1,24 +1,19 @@
 package main;
 
-import functions.FitnessVsNumberOfMutants;
 import functions.AverageNumberOfFailedTestsVsNumberOfMutants;
-import functions.NumberOfFoundTestcasesVsNumberOfMutants;
 import functions.NumberOfStrongMutantsVsNumberOfMutants;
 import functions.TableFunction;
+import io.TableReader;
 import io.TableReaderImpl;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
 import model.Graph;
 import model.TablEntry;
 import model.Table;
 import plotting.PlotterImpl;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.*;
 
 public class Main {
 
@@ -27,12 +22,12 @@ public class Main {
       "experiment/maths/random"};
 
   //Choose the paths here
-  private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[2]);
-  private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[3]);
+  private final static TableReader tableReaderGenetic = new TableReaderImpl(paths[2]);
+  private final static TableReader tableReaderRandom = new TableReaderImpl(paths[3]);
   private final static PlotterImpl plotter = new PlotterImpl();
   private final static TableFunction[] tableFunctions = new TableFunction[]{
-      new NumberOfStrongMutantsVsNumberOfMutants(),
-      new AverageNumberOfFailedTestsVsNumberOfMutants(),};
+          new NumberOfStrongMutantsVsNumberOfMutants(),
+          new AverageNumberOfFailedTestsVsNumberOfMutants()};
 
   public static void main(String[] args) throws IOException {
 
@@ -41,10 +36,10 @@ public class Main {
 
 
     for (TableFunction function : tableFunctions) {
-      Graph graphGenetic = function.createAverageGraph(tablesGenetic, "genetic");
-      Graph graphRandom = function.createAverageGraph(tablesRandom, "random");
+      Graph graphGenetic = function.createAverageGraph(tablesGenetic, "Genetisch");
+      Graph graphRandom = function.createAverageGraph(tablesRandom, "Zufällig");
       plotter.plotGraphs(function.xAxisLabel(), function.yAxisLabel(),
-          List.of(graphGenetic, graphRandom));
+          List.of(graphGenetic, graphRandom), "");
     }
 
     /*
@@ -55,8 +50,8 @@ public class Main {
       plotter.plotGraphs(function.xAxisLabel(), function.yAxisLabel(), graphRandom);
     }*/
 
-    saveHeatMap(true, "heatmap-strong.csv");
-    saveHeatMap(false, "heatmap-all.csv");
+    //saveHeatMap(true, "heatmap-strong.csv");
+    //saveHeatMap(false, "heatmap-all.csv");
   }
 
   private static void saveHeatMap(boolean onlyStrongMutants, String fileName) throws IOException {

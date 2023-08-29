@@ -14,12 +14,11 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 public class PlotterImpl implements Plotter {
 
-  public void plotGraphs(String xAxisLabel, String yAxisLabel, List<Graph> tables) {
+  public void plotGraphs(String xAxisLabel, String yAxisLabel, List<Graph> tables, String title) {
     JFrame frame = new JFrame();
     frame.setTitle("Chart");
     frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-    String title = "Plot";
     XYDataset dataset = createDataset(tables);
     PlotOrientation orientation = PlotOrientation.VERTICAL;
     boolean legend = true;

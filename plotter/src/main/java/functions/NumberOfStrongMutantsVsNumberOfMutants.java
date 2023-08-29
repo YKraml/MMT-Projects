@@ -38,12 +38,12 @@ public class NumberOfStrongMutantsVsNumberOfMutants extends TableFunctionAbstrac
 
   @Override
   public String xAxisLabel() {
-    return "Number of mutants generated";
+    return "Anzahl an generierten Mutanten";
   }
 
   @Override
   public String yAxisLabel() {
-    return "Number of strong mutants";
+    return "Anzahl an starken Mutanten";
   }
 
 

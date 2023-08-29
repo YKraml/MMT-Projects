@@ -33,11 +33,11 @@ public class AverageNumberOfFailedTestsVsNumberOfMutants extends
 
   @Override
   public String xAxisLabel() {
-    return "Number of generated mutants";
+    return "Anzahl an generierten Mutanten";
   }
 
   @Override
   public String yAxisLabel() {
-    return "Average number of failed testcases";
+    return "Durschnittliche Anzahl an fehlgeschlagenen Tests";
   }
 }

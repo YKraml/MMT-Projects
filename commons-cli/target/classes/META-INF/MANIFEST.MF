@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 20
+Build-Jdk-Spec: 19
 Created-By: Apache Maven Bundle Plugin 5.1.8
 Implementation-Title: Apache Commons CLI
 Implementation-Vendor: The Apache Software Foundation
@@ -20,6 +20,7 @@ Bundle-SymbolicName: org.apache.commons.cli
 Bundle-Vendor: The Apache Software Foundation
 Bundle-Version: 1.6.0.SNAPSHOT
 Export-Package: org.apache.commons.cli;version="1.6.0.SNAPSHOT"
+Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-6.4.1.202306080939
 
