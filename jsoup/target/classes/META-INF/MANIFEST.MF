@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 20
+Build-Jdk-Spec: 19
 Implementation-Title: jsoup Java HTML Parser
 Implementation-Version: 1.16.2-SNAPSHOT
 Implementation-Vendor: Jonathan Hedley
 Automatic-Module-Name: org.jsoup
+<<<<<<< HEAD
 Created-By: Apache Maven Bundle Plugin 5.1.8
 Bnd-LastModified: 1693226956231
 Bundle-Description: jsoup is a Java library for working with real-world 
@@ -37,4 +38,7 @@ Import-Package: javax.annotation;resolution:=optional,javax.annotation.m
  .dom
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-6.3.1.202206071316
+=======
+Created-By: Maven Integration for Eclipse
+>>>>>>> 42d5a5c368c6260dd16b6c6d89a9dac8cc39c3fc
 
