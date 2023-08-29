@@ -22,27 +22,22 @@ import plotting.PlotterImpl;
 
 public class Main {
 
-  private static String[] paths = new String[]{
-      "experiment/cli/genetic",
-      "experiment/cli/random",
-      "experiment/jsoup/genetic",
-      "experiment/jsoup/random",
-      "experiment/maths/genetic",
-      "experiment/maths/random"
-  };
+  private static String[] paths = new String[]{"experiment/cli/genetic", "experiment/cli/random",
+      "experiment/jsoup/genetic", "experiment/jsoup/random", "experiment/maths/genetic",
+      "experiment/maths/random"};
 
+  //Choose the paths here
   private final static TableReaderImpl tableReaderGenetic = new TableReaderImpl(paths[2]);
   private final static TableReaderImpl tableReaderRandom = new TableReaderImpl(paths[3]);
   private final static PlotterImpl plotter = new PlotterImpl();
   private final static TableFunction[] tableFunctions = new TableFunction[]{
-      new NumberOfFoundTestcasesVsNumberOfMutants(), new NumberOfStrongMutantsVsNumberOfMutants(),
-      new AverageNumberOfFailedTestsVsNumberOfMutants(), new FitnessVsNumberOfMutants()};
+      new NumberOfStrongMutantsVsNumberOfMutants(),
+      new AverageNumberOfFailedTestsVsNumberOfMutants(),};
 
   public static void main(String[] args) throws IOException {
 
     List<Table> tablesGenetic = tableReaderGenetic.getSortedTables();
     List<Table> tablesRandom = tableReaderRandom.getSortedTables();
-
 
 
     for (TableFunction function : tableFunctions) {
@@ -52,9 +47,7 @@ public class Main {
           List.of(graphGenetic, graphRandom));
     }
 
-
-
-/*
+    /*
     for (TableFunction function : tableFunctions) {
       List<Graph> graphGenetic = function.createGraphs(tablesGenetic);
       List<Graph> graphRandom = function.createGraphs(tablesRandom);
@@ -79,8 +72,7 @@ public class Main {
 
   private static void writeSearchSpaceInFile(Collection<String> clazzes,
       Collection<String> operators, Map<String, Map<String, Collection<String>>> searchSpace,
-      String fileName)
-      throws IOException {
+      String fileName) throws IOException {
     StringBuilder builder = new StringBuilder();
     builder.append(";");
     for (String operator : operators) {
@@ -108,7 +100,6 @@ public class Main {
   private static Map<String, Map<String, Collection<String>>> calcSearchSpace(Table table,
       Collection<String> clazzes, Collection<String> operators, boolean onlyStrongMutants) {
     Map<String, Map<String, Collection<String>>> searchSpace = new HashMap<>();
-
 
     Map<String, Collection<String>> testCasesMap = new HashMap<>();
     for (TablEntry entry : table.getSortedEntries()) {

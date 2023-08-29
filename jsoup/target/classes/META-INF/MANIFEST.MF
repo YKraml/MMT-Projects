@@ -5,7 +5,7 @@ Implementation-Version: 1.16.2-SNAPSHOT
 Implementation-Vendor: Jonathan Hedley
 Automatic-Module-Name: org.jsoup
 Created-By: Apache Maven Bundle Plugin 5.1.8
-Bnd-LastModified: 1692886930768
+Bnd-LastModified: 1693226956231
 Bundle-Description: jsoup is a Java library for working with real-world 
  HTML. It provides a very convenient API for fetching URLs and extractin
  g and manipulating data, using the best of HTML5 DOM methods and CSS se

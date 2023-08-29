@@ -267,30 +267,37 @@
         </methodReference>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="1309" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.4"/>
-      </instructions>
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="1309" localVariable="//@classes.0/@methods.5/@localVariableTable.1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.5"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.8"/>
       </instructions>
       <instructions xsi:type="jbc:PutfieldInstruction" name="idx_5" linenumber="1309">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.6"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.5"/>
         <fieldReference name="value">
           <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
           <descriptor typeDescriptor="Ljava/lang/String;"/>
         </fieldReference>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_6" linenumber="1310" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.7"/>
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.6"/>
       </instructions>
       <instructions xsi:type="jbc:AreturnInstruction" name="idx_7" linenumber="1310"/>
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_4_">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.4"/>
+        <fieldReference name="value">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
+          <descriptor typeDescriptor="Ljava/lang/String;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_4" localVariable="//@classes.0/@methods.5/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.5/@instructions.7"/>
+      </instructions>
       <descriptor>
         <parameterTypes typeDescriptor="Ljava/lang/String;"/>
         <resultType typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
       </descriptor>
-      <localVariableTable name="this" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.7" index="0">
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.6" index="0">
         <descriptor typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
       </localVariableTable>
-      <localVariableTable name="value" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.7" index="1">
+      <localVariableTable name="value" startInstruction="//@classes.0/@methods.5/@instructions.0" endInstruction="//@classes.0/@methods.5/@instructions.6" index="1">
         <descriptor typeDescriptor="Ljava/lang/String;"/>
       </localVariableTable>
     </methods>
@@ -339,29 +346,30 @@
         </methodReference>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_4" linenumber="1320" localVariable="//@classes.0/@methods.7/@localVariableTable.0" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.9"/>
-      </instructions>
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="1320" localVariable="//@classes.0/@methods.7/@localVariableTable.1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.8"/>
-      </instructions>
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_7" linenumber="1321" localVariable="//@classes.0/@methods.7/@localVariableTable.0" varIndex="0">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.7"/>
-      </instructions>
-      <instructions xsi:type="jbc:AreturnInstruction" name="idx_8" linenumber="1321"/>
-      <instructions xsi:type="jbc:AstoreInstruction" name="idx_6" localVariable="//@classes.0/@methods.7/@localVariableTable.1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.6"/>
-      </instructions>
-      <instructions xsi:type="jbc:AstoreInstruction" name="idx_6_" localVariable="//@classes.0/@methods.7/@localVariableTable.0" varIndex="0">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.5"/>
       </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="1320" localVariable="//@classes.0/@methods.7/@localVariableTable.1" varIndex="1">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.6"/>
+      </instructions>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_6" linenumber="1320">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.7"/>
+        <fieldReference name="stream">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
+          <descriptor typeDescriptor="Ljava/io/InputStream;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_7" linenumber="1321" localVariable="//@classes.0/@methods.7/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.7/@instructions.8"/>
+      </instructions>
+      <instructions xsi:type="jbc:AreturnInstruction" name="idx_8" linenumber="1321"/>
       <descriptor>
         <parameterTypes typeDescriptor="Ljava/io/InputStream;"/>
         <resultType typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
       </descriptor>
-      <localVariableTable name="this" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.7" index="0">
+      <localVariableTable name="this" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.8" index="0">
         <descriptor typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
       </localVariableTable>
-      <localVariableTable name="inputStream" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.7" index="1">
+      <localVariableTable name="inputStream" startInstruction="//@classes.0/@methods.7/@instructions.0" endInstruction="//@classes.0/@methods.7/@instructions.8" index="1">
         <descriptor typeDescriptor="Ljava/io/InputStream;"/>
       </localVariableTable>
     </methods>
@@ -433,18 +441,26 @@
       <instructions xsi:type="jbc:AloadInstruction" name="idx_2" linenumber="1337" localVariable="//@classes.0/@methods.10/@localVariableTable.0" varIndex="0">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.7"/>
       </instructions>
-      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" linenumber="1337" localVariable="//@classes.0/@methods.10/@localVariableTable.1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.6"/>
+      <instructions xsi:type="jbc:PutfieldInstruction" name="idx_4" linenumber="1337">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.4"/>
+        <fieldReference name="contentType">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
+          <descriptor typeDescriptor="Ljava/lang/String;"/>
+        </fieldReference>
       </instructions>
       <instructions xsi:type="jbc:AloadInstruction" name="idx_5" linenumber="1338" localVariable="//@classes.0/@methods.10/@localVariableTable.0" varIndex="0">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.5"/>
       </instructions>
       <instructions xsi:type="jbc:AreturnInstruction" name="idx_6" linenumber="1338"/>
-      <instructions xsi:type="jbc:AstoreInstruction" name="idx_4" localVariable="//@classes.0/@methods.10/@localVariableTable.1" varIndex="1">
-        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.4"/>
-      </instructions>
-      <instructions xsi:type="jbc:AstoreInstruction" name="idx_4_" localVariable="//@classes.0/@methods.10/@localVariableTable.0" varIndex="0">
+      <instructions xsi:type="jbc:GetfieldInstruction" name="idx_3_">
         <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.3"/>
+        <fieldReference name="contentType">
+          <declaringClass typeDescriptor="Lorg/jsoup/helper/HttpConnection$KeyVal;"/>
+          <descriptor typeDescriptor="Ljava/lang/String;"/>
+        </fieldReference>
+      </instructions>
+      <instructions xsi:type="jbc:AloadInstruction" name="idx_3" localVariable="//@classes.0/@methods.10/@localVariableTable.0" varIndex="0">
+        <outEdges xsi:type="jbc:UnconditionalEdge" end="//@classes.0/@methods.10/@instructions.6"/>
       </instructions>
       <descriptor>
         <parameterTypes typeDescriptor="Ljava/lang/String;"/>
