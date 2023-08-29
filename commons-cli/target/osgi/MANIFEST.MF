@@ -11,15 +11,5 @@ Bundle-Vendor: The Apache Software Foundation
 Bundle-Version: 1.6.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin 5.1.8
 Export-Package: org.apache.commons.cli;version="1.6.0.SNAPSHOT"
-Implementation-Title: Apache Commons CLI
-Implementation-Vendor: The Apache Software Foundation
-Implementation-Vendor-Id: org.apache
-Implementation-Version: 1.6.0-SNAPSHOT
-Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-Specification-Title: Apache Commons CLI
-Specification-Vendor: The Apache Software Foundation
-Specification-Version: 1.6.0-SNAPSHOT
 Tool: Bnd-6.4.1.202306080939
-X-Compile-Source-JDK: 1.8
-X-Compile-Target-JDK: 1.8
