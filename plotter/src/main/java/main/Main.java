@@ -21,9 +21,10 @@ public class Main {
       "experiment/jsoup/genetic", "experiment/jsoup/random", "experiment/maths/genetic",
       "experiment/maths/random"};
 
-  //Choose the paths here
-  private final static TableReader tableReaderGenetic = new TableReaderImpl(paths[2]);
-  private final static TableReader tableReaderRandom = new TableReaderImpl(paths[3]);
+
+  //Choose the projects with the paths array. 0,1 = Commons-Cli; 2,3 = JSoup; 4,5 = Maths
+  private final static TableReader tableReaderGenetic = new TableReaderImpl(paths[0]);
+  private final static TableReader tableReaderRandom = new TableReaderImpl(paths[1]);
   private final static PlotterImpl plotter = new PlotterImpl();
   private final static TableFunction[] tableFunctions = new TableFunction[]{
           new NumberOfStrongMutantsVsNumberOfMutants(),
@@ -42,6 +43,7 @@ public class Main {
           List.of(graphGenetic, graphRandom), "");
     }
 
+    //Creates the Graphs without averaging it.
     /*
     for (TableFunction function : tableFunctions) {
       List<Graph> graphGenetic = function.createGraphs(tablesGenetic);
@@ -50,6 +52,7 @@ public class Main {
       plotter.plotGraphs(function.xAxisLabel(), function.yAxisLabel(), graphRandom);
     }*/
 
+    //Saves the search space as csv heatmaps.
     //saveHeatMap(true, "heatmap-strong.csv");
     //saveHeatMap(false, "heatmap-all.csv");
   }
